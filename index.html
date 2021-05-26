@@ -1,0 +1,281 @@
+<html>
+	<head>
+		<title>Bootstrap</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">Logo</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+			  		<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  		<ul class="navbar-nav mr-auto">
+			      		<li class="nav-item active">
+			       			 <a class="nav-link" href="#about">About</a>
+			      		</li>
+			      		<li class="nav-item">
+			       			 <a class="nav-link" href="#portfolio">Portfolio</a>
+			      		</li>
+			      		<li class="nav-item">
+			       			 <a class="nav-link" href="#discount">Discount</a>
+			      		</li>
+			      		<li class="nav-item">
+			       			 <a class="nav-link" href="#blog">Blog</a>
+			      		</li>
+			      		<li class="nav-item">
+			       			 <a class="nav-link" href="#contact">Contact</a>
+			      		</li>
+			      	</ul>
+			    	<form class="form-inline my-2 my-lg-0">
+			       		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Поиск">
+			    		<button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+			    	</form>
+			    </div>
+			</div>
+		</nav>
+		<header class="header d-flex align-items-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-lg-6">
+						<h1 class="text-success">Hello, Welcome To My Planet!</h1>
+						<p class="text-white">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<button class="btn btn-success btn-lg">See more</button>
+					</div>
+					<div class="col-md-4 col-lg-6"></div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div id="about" class="border-bottom border-success py-4">
+				<div class="container">
+					<h2 class="text-center mb-4"><i class="fas fa-user"></i> About</h2>
+					<div class="row">
+						<div class="col-sm-6 col-md-4 col-lg-2 d-flex justify-content-center align-items-center">
+							<img src="img/avatar.png" alt="avatar" class="border border-success rounded-circle img-fluid">
+						</div>
+						<div class="col-sm-6 col-md-8 col-lg-10">
+							<h3 class="pt-4 text-center text-sm-left">Mr. Alien</h3>
+							<p>Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="portfolio" class="border-bottom border-success py-4">
+				<div class="container">
+					<h2 class="text-center mb-4"><i class="fas fa-image"></i> Portfolio</h2>
+					<div class="row">
+						<div class="col-sm-6 col-lg-4 mb-4 portfolio-item" data-toggle="modal" data-target="#portfolio-1-Modal">
+							<img src="img/portfolio/portfolio-1.png" alt="portfolio-1" class="img-fluid">
+						</div>
+						<div class="col-sm-6 col-lg-4 mb-4 portfolio-item" data-toggle="modal" data-target="#portfolio-2-Modal">
+							<img src="img/portfolio/portfolio-2.png" alt="portfolio-2" class="img-fluid">
+						</div>
+						<div class="col-sm-6 col-lg-4 mb-4 portfolio-item" data-toggle="modal" data-target="#portfolio-3-Modal">
+							<img src="img/portfolio/portfolio-3.png" alt="portfolio-3" class="img-fluid">
+						</div>
+						<div class="col-sm-6 col-lg-4 mb-4 portfolio-item" data-toggle="modal" data-target="#portfolio-4-Modal">
+							<img src="img/portfolio/portfolio-4.png" alt="portfolio-4" class="img-fluid">
+						</div>
+						<div class="col-sm-6 col-lg-4 mb-4 portfolio-item" data-toggle="modal" data-target="#portfolio-5-Modal">
+							<img src="img/portfolio/portfolio-5.png" alt="portfolio-5" class="img-fluid">
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!--Модалка 1 -->
+			<div class="modal fade" id="portfolio-1-Modal" tabindex="-1" aria-labelledby="portfolio-1-ModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl">
+				    <div class="modal-content">
+				    	<div class="modal-header">
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				    	</div>
+				    	<div class="modal-body mb-4 text-center">
+				       		<img src="img/portfolio/portfolio-1.png" class="img-fluid">
+				    	</div>
+				   	</div>
+				</div>
+			</div>
+			<!--Модалка 2 -->
+			<div class="modal fade" id="portfolio-2-Modal" tabindex="-1" aria-labelledby="portfolio-2-ModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl">
+				    <div class="modal-content">
+				    	<div class="modal-header">
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				    	</div>
+				    	<div class="modal-body mb-4 text-center">
+				       		<img src="img/portfolio/portfolio-2.png" class="img-fluid">
+				    	</div>
+				   	</div>
+				</div>
+			</div>
+			<!--Модалка 3 -->
+			<div class="modal fade" id="portfolio-3-Modal" tabindex="-1" aria-labelledby="portfolio-3-ModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl">
+				    <div class="modal-content">
+				    	<div class="modal-header">
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				    	</div>
+				    	<div class="modal-body mb-4 text-center">
+				       		<img src="img/portfolio/portfolio-3.png" class="img-fluid">
+				    	</div>
+				   	</div>
+				</div>
+			</div>
+			<!--Модалка 4 -->
+			<div class="modal fade" id="portfolio-4-Modal" tabindex="-1" aria-labelledby="portfolio-4-ModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl">
+				    <div class="modal-content">
+				    	<div class="modal-header">
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				    	</div>
+				    	<div class="modal-body mb-4 text-center">
+				       		<img src="img/portfolio/portfolio-4.png" class="img-fluid">
+				    	</div>
+				   	</div>
+				</div>
+			</div>
+			<!--Модалка 5 -->
+			<div class="modal fade" id="portfolio-5-Modal" tabindex="-1" aria-labelledby="portfolio-5-ModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-xl">
+				    <div class="modal-content">
+				    	<div class="modal-header">
+					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          		<span aria-hidden="true">&times;</span>
+				        	</button>
+				    	</div>
+				    	<div class="modal-body mb-4 text-center">
+				       		<img src="img/portfolio/portfolio-5.png" class="img-fluid">
+				    	</div>
+				   	</div>
+				</div>
+			</div>
+			<div id="discount" class="py-4">
+					<h2 class="text-center mb-4"><i class="fas fa-tag"></i> Discount</h2>
+					<div id="carousel-caption" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-caption" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-caption" data-slide-to="1"></li>
+							<li data-target="#carousel-caption" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner img-overlay">
+						    <div class="carousel-item active">
+						    	<a href="#" class="color"><img src="img/discount/discount-1.jpg" class="d-block w-100 img-overlay" alt="discount-1"></a>
+						    	<div class="carousel-caption">
+						        	<h3>Акция 1</h3>
+						        	<p>Некоторый репрезентативный заполнитель для первого слайда.</p>
+						        	<p><a class="btn btn-lg btn-success" href="#">Learn more</a></p>
+						    	</div>
+						    </div>
+						    <div class="carousel-item">
+						    	<a href="#" class="color"><img src="img/discount/discount-2.jpg" class="d-block w-100" alt="discount-2"></a>
+						    	<div class="carousel-caption">
+						        	<h3>Акция 2</h3>
+						        	<p>Некоторый репрезентативный заполнитель для второго слайда.</p>
+						        	<p><a class="btn btn-lg btn-success" href="#">Learn more</a></p>
+						    	</div>
+						    </div>
+						    <div class="carousel-item">
+						    	<a href="#" class="color"><img src="img/discount/discount-3.jpg" class="d-block w-100" alt="discount-3"></a>
+						    	<div class="carousel-caption">
+						        	<h3>Акция 3</h3>
+						        	<p>Некоторый репрезентативный заполнитель для третьего слайда.</p>
+						        	<p><a class="btn btn-lg btn-success" href="#">Learn more</a></p>
+						    	</div>
+						    </div>
+						</div>
+							<a class="carousel-control-prev" href="#carousel-caption" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Предыдущий</span>
+							</a>
+							<a class="carousel-control-next" href="#carousel-caption" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Следующий</span>
+							</a>
+					</div>		
+			</div>
+			<div id="blog" class="border-bottom border-success py-4">
+				<div class="container">
+					<h2 class="text-center mb-4"><i class="fab fa-blogger-b"></i> Blog</h2>
+					<div class="row">
+						<div class="col-sm-6 col-lg-4">
+							<div class="card border-success mb-4">
+								<img src="img/blog/blog-news-1.jpeg" class="card-img-top" alt="blog-news-1">
+								<div class="card-body">
+									<h5 class="card-title">Название карточки</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-success">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="card border-success mb-4">
+								<img src="img/blog/blog-news-2.jpg" class="card-img-top" alt="blog-news-2">
+								<div class="card-body">
+									<h5 class="card-title">Название карточки</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-success">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4">
+							<div class="card border-success mb-4">
+								<img src="img/blog/blog-news-3.jpg" class="card-img-top" alt="blog-news-3">
+								<div class="card-body">
+									<h5 class="card-title">Название карточки</h5>
+									<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									<a href="#" class="btn btn-success">Go somewhere</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>	
+			<div id="contact" class="py-4">
+				<div class="container">
+					<h2 class="text-center mb-4"><i class="fas fa-address-book"></i> Contact me</h2>
+					<div class="row justify-content-center">
+						<form>
+						 	<div class="form-group">
+						    	<label for="inlineFormInputGroup">Ваше имя</label>
+						    	<input type="text" class="form-control border-success" id="inlineFormInputGroup" placeholder="напишите имя">
+							</div>
+							<div class="form-group">
+						    	<label for="email">Адрес электронной почты</label>
+						    	<input type="email" class="form-control border-success" id="email" placeholder="ваш email">
+						    	<small id="emailHelp" class="form-text text-muted">Мы никогда никому не передадим Вашу электронную почту.</small>
+							</div>
+							<div class="form-group custom-control custom-checkbox">
+						    	<input type="checkbox" class="custom-control-input" id="customCheck">
+						   		<label class="custom-control-label" for="customCheck">Проверить меня</label>
+							</div>
+							<button type="submit" class="btn btn-success btn-lg">Отправить</button>
+						</form>
+					</div>	
+				</div>
+			</div>
+		</main>
+		<footer class="bg-dark py-3">
+			<div class="container">
+				<span class="text-muted">Copyrights.</span>
+			</div>
+		</footer>
+		<script src="js/jquery-3.6.0.min.js"></script>	
+		<script src="js/all.min.js"></script>	
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
